@@ -2,16 +2,31 @@
 
 A new Flutter project.
 
-## Getting Started
+## Flutter version
 
-This project is a starting point for a Flutter application.
+- Flutter 3.47.7
+- Dart 3.13.5
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+flutter pub get
+flutter run --dart-define=GIPHY_API_KEY=*key*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tests
+
+flutter test
+
+## Sources
+
+- Fetch data from the internet: https://docs.flutter.dev/cookbook/networking/fetch-data
+- JSON and serialization: https://docs.flutter.dev/data-and-backend/serialization/json
+- Mock dependencies (passing `http.Client` to the API class): https://docs.flutter.dev/cookbook/testing/unit/mocking
+- `MockClient` from the http package: https://pub.dev/documentation/http/latest/testing/
+- Send data to a new screen: https://docs.flutter.dev/cookbook/navigation/passing-data
+- Update the UI based on orientation: https://docs.flutter.dev/cookbook/design/orientation
+- Handle changes to a text field: https://docs.flutter.dev/cookbook/forms/text-field-changes
+- Debounce example in the Autocomplete docs: https://api.flutter.dev/flutter/material/Autocomplete-class.html
+- Infinite list example (loading more when scrolling): https://github.com/felangel/bloc/blob/master/examples/flutter_infinite_list/lib/posts/view/posts_list.dart
+- Image loading and error builders: https://api.flutter.dev/flutter/widgets/Image/loadingBuilder.html
+- Unit testing and widget testing: https://docs.flutter.dev/cookbook/testing/unit/introduction and https://docs.flutter.dev/cookbook/testing/widget/introduction
+- Giphy API: https://developers.giphy.com/docs/api/
