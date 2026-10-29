@@ -1,6 +1,6 @@
 # giphy_search
 
-A new Flutter project.
+A Flutter app for the Chili Labs test task.
 
 ## Flutter version
 
@@ -9,12 +9,16 @@ A new Flutter project.
 
 ## How to run
 
+```
 flutter pub get
 flutter run --dart-define=GIPHY_API_KEY=*key*
+```
 
 ## Tests
 
+```
 flutter test
+```
 
 ## Sources
 
